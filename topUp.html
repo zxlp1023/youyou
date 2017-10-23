@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-  <div class="weui-tab">
+  <div class="weui-tab diamond">
     <div class="weui-navbar">
       <a class="weui-navbar__item weui-bar__item--on" href="#tab1">
         钻石充值
@@ -19,30 +19,90 @@
         会员充值
       </a>
     </div>
-    <div class="weui-tab__bd">
+    <div class="weui-tab__bd ">
+      <div class="notice">
+        <p class="hui999 fz6">温馨提示: 会员等级越高,享受的特权越多,赶快查看吧.</p>
+      </div>
       <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
-        <div class="weui-cells">
-          <div class="weui-cell diamond">
-            <div class="weui-cell__hd"><img src="" alt="" style="width:20px;margin-right:5px;display:block"></div>
-            <div class="weui-cell__bd">
-              <p>100</p>
+        <div class="weui-panel__bd ">
+          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+              <img class="weui-media-box__thumb" src="img/icon2.png" alt="">
             </div>
-            <div class="weui-cell__ft">100</div>
-          </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">100元</h4>
+              <p class="weui-media-box__desc">充值1000钻石</p>
+            </div>
+            <i class="weui-icon-success"></i>
+          </a>
+          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+              <img class="weui-media-box__thumb" src="img/icon2.png" alt="">
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">500元</h4>
+              <p class="weui-media-box__desc">充值5000钻石</p>
+            </div>
+            <i class="weui-icon-success"></i>
+          </a>
         </div>
-
+        <a href="javascript:;" class="weui-btn weui-btn_primary ">立即充值</a>
       </div>
       <div id="tab2" class="weui-tab__bd-item">
-        <h1>会员充值</h1>
+        <div class="notice">
+          <p class="hui999 fz6">温馨提示: 会员等级越高,享受的特权越多,赶快查看吧.</p>
+        </div>
+        <div class="weui-panel__bd ">
+          <a href="vipDetails.html" class="weui-media-box weui-media-box_appmsg weui-cell_access on">
+            <div class="weui-media-box__hd">
+              <img class="weui-media-box__thumb" src="img/vip2.png" alt="">
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">VIP 1</h4>
+            </div>
+            <div class="weui-media-box__bd"><span class="orange">￥100</span></div>
+            <div class="weui-media-box__bd hui999 fz6">8.8折</div>
+            <span class="weui-cell__ft">查看特权</span>
+          </a>
+          <a href="vipDetails.html" class="weui-media-box weui-media-box_appmsg weui-cell_access on">
+            <div class="weui-media-box__hd">
+              <img class="weui-media-box__thumb" src="img/vip2.png" alt="">
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">VIP 1</h4>
+            </div>
+            <div class="weui-media-box__bd"><span class="orange">￥100</span></div>
+            <div class="weui-media-box__bd hui999 fz6">8.8折</div>
+            <span class="weui-cell__ft">查看特权</span>
+          </a>
+          <a href="vipDetails.html" class="weui-media-box weui-media-box_appmsg weui-cell_access on">
+            <div class="weui-media-box__hd">
+              <img class="weui-media-box__thumb" src="img/vip2.png" alt="">
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">VIP 1</h4>
+            </div>
+            <div class="weui-media-box__bd"><span class="orange">￥100</span></div>
+            <div class="weui-media-box__bd hui999 fz6">8.8折</div>
+            <span class="weui-cell__ft">查看特权</span>
+          </a>
+
+        </div>
       </div>
     </div>
   </div>
+
+
 <script src="js/jquery-3.2.1.min.js" ></script>
 <script src="js/fastclick.js"></script>
 <script>
   $(function() {
     FastClick.attach(document.body);
   });
+
+  $('.weui-media-box').click(function(){
+    $(this).addClass('on').siblings().removeClass('on');
+  })
 </script>
 <script src="js/jquery-weui.min.js" ></script>
 

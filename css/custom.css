@@ -1,7 +1,54 @@
+@charset "UTF-8";
+.hui666 { color: #666; }
+
+.hui999 { color: #999; }
+
 .text-center { text-align: center; }
 
-.share { position: relative; top: 100px; text-align: center; }
+.mt10 { margin-top: 10px; }
 
-.share img { width: 60%; margin: 0 auto; }
+.mt20 { margin-top: 20px; }
+
+.mt30 { margin-top: 30px; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+a { color: #3b3b3b; }
+
+.fz6 { font-size: .6rem; }
+
+.orange { color: #ff8e0d; }
+
+.share { position: absolute; text-align: center; background: #fff; width: 80%; /*height: 80vh;*/ margin: 40% 10% 0; padding: 10% 0; }
+
+.share img { max-width: 66%; /*margin-top: 15vh;*/ }
+
+.diamond { /*充值按钮*/ /*充值会员*/ }
+.diamond .weui-media-box { padding: 5px 15px; }
+.diamond .weui-media-box__ft { margin-right: 10px; }
+.diamond .weui-media-box:before { border-top: 1px solid #ccc; }
+.diamond .weui-navbar__item.weui-bar__item--on { border-bottom: 3px solid #05bc02; color: #05bc02; background: #fff; }
+.diamond .weui-icon-success { display: none; }
+.diamond .on .weui-icon-success { display: block; }
+.diamond .weui-btn { margin: 20px 26px 0; font-size: .8rem; }
+.diamond .notice { padding: 10px 15px; border-bottom: 1px solid #eee; line-height: 2; }
+.diamond .weui-media-box_appmsg .weui-media-box__hd { width: 50px; height: 50px; margin-right: .5rem; }
+.diamond .weui-media-box_appmsg .weui-media-box__thumb { width: 40px; margin-top: 5px; }
+.diamond .weui-cell__ft { font-size: .6rem; }
+
+.traderecord .weui-media-box:nth-child(even) { background: #f5f5f5; }
+.traderecord .weui-media-box__info { margin-top: 10px; }
+
+.my header { text-align: center; overflow: auto; color: #fff; padding: 1.4rem 0 .85rem; background: url("../img/vip-bg.png") center 0/cover #ff9a0a; }
+.my header .logo { width: 3.2rem; height: 3.2rem; overflow: hidden; border-radius: 50%; border: 5px solid rgba(255, 255, 255, 0.31); margin: 0 auto 0; }
+.my header img { width: 100%; }
+.my .weui-grids { background: #fff; text-align: center; }
+.my .weui-grids .weui-grid { margin: .5rem 0; padding: 0; }
+.my .weui-grids .weui-grid:after { border: 0; }
+.my .weui-grids p:first-child { font-size: .75rem; color: #949494; }
+.my .weui-grids p:first-child span { font-size: .6rem; margin-left: 3px; }
+.my .weui-grids p:last-child { color: #3b3b3b; }
 
 /*# sourceMappingURL=custom.css.map */
