@@ -7,9 +7,13 @@
 
 .mt10 { margin-top: 10px; }
 
+.mt15 { margin-top: 15px; }
+
 .mt20 { margin-top: 20px; }
 
 .mt30 { margin-top: 30px; }
+
+.p075 { padding: 0 .75rem; }
 
 .fl { float: left; }
 
@@ -19,9 +23,25 @@ a { color: #3b3b3b; }
 
 .fz6 { font-size: .6rem; }
 
+.fz20 { font-size: 1.1rem; }
+
 .orange { color: #ff8e0d; }
 
-.share { position: absolute; text-align: center; background: #fff; width: 80%; /*height: 80vh;*/ margin: 40% 10% 0; padding: 10% 0; }
+.border-t1 { border-top: 1px solid #f7f7f7; }
+
+#huif7 { background: #f7f7f7; }
+
+.dis-f { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.fz12 { font-size: .6rem; }
+
+.fz14 { font-size: .7rem; }
+
+.fz16 { font-size: .8rem; }
+
+.fz18 { font-size: .9rem; }
+
+.share { /*position: absolute;*/ text-align: center; background: #fff; width: 80%; /*height: 80vh;*/ margin: 30%  auto 0; padding: 15% 0; }
 
 .share img { max-width: 66%; /*margin-top: 15vh;*/ }
 
@@ -38,17 +58,72 @@ a { color: #3b3b3b; }
 .diamond .weui-media-box_appmsg .weui-media-box__thumb { width: 40px; margin-top: 5px; }
 .diamond .weui-cell__ft { font-size: .6rem; }
 
-.traderecord .weui-media-box:nth-child(even) { background: #f5f5f5; }
-.traderecord .weui-media-box__info { margin-top: 10px; }
+/*会员详情*/
+.vipDetails { padding: 0 15px; /*充值按钮*/ }
+.vipDetails h4 { font-weight: normal; line-height: 2.5; font-size: 1rem; color: #05bc02; }
+.vipDetails .weui-form-preview__bd { text-align: inherit; padding: 0; font-size: inherit; }
+.vipDetails .weui-form-preview__item { border-bottom: 1px dashed #d9d9d9; padding: 5px 0; }
+.vipDetails .weui-form-preview:after { border-bottom: 0; }
+.vipDetails .weui-form-preview__hd { padding: 0; }
+.vipDetails .weui-form-preview__hd:after { border-bottom: 0; }
+.vipDetails .weui-btn { margin: 20px 0 0; font-size: .8rem; }
 
+.traderecord .title { padding: 0 15px; line-height: 2.2; background: #f7f7f7; }
+.traderecord .weui-media-box { padding: 0 15px; margin-bottom: 10px; padding-top: 10px; }
+.traderecord .weui-media-box__info { margin-top: 10px; border-bottom: 1px solid #e5e5e5; }
+
+.my { background: #f7f7f7; }
 .my header { text-align: center; overflow: auto; color: #fff; padding: 1.4rem 0 .85rem; background: url("../img/vip-bg.png") center 0/cover #ff9a0a; }
 .my header .logo { width: 3.2rem; height: 3.2rem; overflow: hidden; border-radius: 50%; border: 5px solid rgba(255, 255, 255, 0.31); margin: 0 auto 0; }
 .my header img { width: 100%; }
-.my .weui-grids { background: #fff; text-align: center; }
-.my .weui-grids .weui-grid { margin: .5rem 0; padding: 0; }
-.my .weui-grids .weui-grid:after { border: 0; }
-.my .weui-grids p:first-child { font-size: .75rem; color: #949494; }
-.my .weui-grids p:first-child span { font-size: .6rem; margin-left: 3px; }
-.my .weui-grids p:last-child { color: #3b3b3b; }
+.my header .name { font-size: .85rem; }
+.my header p:last-child { font-size: .65rem; display: inline-block; padding: .1rem .8rem; height: 1rem; line-height: 1rem; margin: 0 auto; background: #ffcc1d; border-radius: .7rem; }
+.my .weui-cell__hd { margin-right: 6px; }
+.my .weui-cell__bd p { font-size: .8rem; }
+.my .weui-cell__ft { font-size: .7rem; }
+
+.backBar { height: 2rem; line-height: 2rem; width: 100%; padding: 0 .75rem; -webkit-box-sizing: border-box; box-sizing: border-box; color: #fff; background: #ff8e0d; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.backBar .title { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; text-align: center; }
+.backBar p { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; text-align: center; margin-left: -2rem; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.backBar p.ml0 { margin-left: 0; }
+.backBar a.back { display: inline-block; width: 2rem; }
+.backBar a.back i { width: .75rem; height: .75rem; display: inline-block; }
+.backBar a.back .text-icon.icon-shop-back { position: relative; left: 0.75rem; /*top: $fz5;*/ content: ''; display: block; border-left: 1px solid #fff; border-bottom: 1px solid #fff; -webkit-transform: scaleY(0.8) rotateZ(45deg); transform: scaleY(0.8) rotateZ(45deg); }
+.backBar a.regLogin { width: 2rem; color: #fff; font-size: .6rem; text-align: right; }
+
+.withdraw { font-size: .7rem; margin-top: 15px; }
+.withdraw .hd { height: 2.2rem; line-height: 2.2rem; text-indent: .8rem; background: #eee; border-radius: 5px 5px 0 0; }
+.withdraw .hd span { color: #2c3566; margin-left: 1rem; }
+.withdraw .bd { background: #fff; padding: .8rem .8rem 0; border-radius: 0 0 5px 5px; }
+.withdraw .bd input { font-size: 1.2rem; padding: .3rem 0; width: auto; }
+.withdraw .bd .balance { padding: .5rem 0; }
+.withdraw .weui-btn_pay { background: #ff8e0d; height: 1.75rem; line-height: 1.75rem; margin-top: 1rem; }
+.withdraw .weui-btn_pay:after { border: 0; }
+
+.balance { font-size: .7rem; padding: 3.2rem 0.75rem 0; }
+.balance img:first-child { width: 5.2rem; }
+.balance p { font-size: 1.2rem; }
+.balance p:before { content: '¥'; font-size: 1rem; }
+.balance .weui-btn { height: 1.75rem; line-height: 1.75rem; }
+.balance .weui-btn:first-of-type { margin-top: 3.2rem; }
+.balance .weui-btn:last-of-type { background: #fff; color: #ff8e0d; }
+
+.cards dl { display: -webkit-box; display: -ms-flexbox; display: flex; height: 4.3rem; margin-top: .75rem; background: #ff8e0d; border-radius: 5px; color: #fff; }
+.cards dl dt { width: 2.25rem; margin: .5rem .6rem 0 1rem; }
+.cards dl dt img { width: 100%; }
+.cards dl dd { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; margin: .6rem 0 0 0; }
+.cards dl dd .num { font-size: .9rem; }
+
+.talk a { display: block; }
+
+.icon-member-addr-add { display: inline-block; width: 23px; height: 23px; vertical-align: middle; background: url("../img/iconJia.png") 0 -2px/contain no-repeat; }
+
+.login { background: #fff; }
+.login input { height: 1.75rem; background: #f7f7f7; border-radius: .9rem; text-indent: 1rem; letter-spacing: 2px; font-size: .7rem; }
+.login .weui-cells { margin: 0; padding: 0 .75rem; }
+.login .weui-cells:before, .login .weui-cells:after { border: 0; }
+.login .weui-cell { margin: 1rem 0 0; padding: 0; }
+.login .weui-btn_pay { margin-top: 0; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; background: #ff8e0d; border-radius: .9rem; height: 2rem; line-height: 2rem; }
+.login .weui-cell:before, .login .weui-cell:after { border: 0; }
 
 /*# sourceMappingURL=custom.css.map */
